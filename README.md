@@ -79,8 +79,10 @@ numerical-pendulum/
 Clone the repository and install the required dependencies:
 
 ```bash
-git clone <[repository-url](https://github.com/Gonzaseca/numerical-pendulum)>
+git clone https://github.com/Gonzaseca/numerical-pendulum
 cd numerical-pendulum
+python -m venv .venv
+.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
 ```
 
